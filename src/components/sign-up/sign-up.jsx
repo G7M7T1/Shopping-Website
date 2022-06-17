@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useContext, useState} from "react";
 import {
     auth,
     createAuthUserWithEmailAndPassword,
@@ -8,6 +8,7 @@ import {
 import FormInput from "../form-input/form-input";
 import "./sign-up.scss"
 import Button from "../button/button";
+import {UserContext} from "../../context/user.context";
 
 const formDefault = {
     displayName: '',
@@ -20,16 +21,18 @@ const SignUp = () => {
     const [formInfo, setFormInfo] = useState(formDefault)
     const {displayName, email, password, confirmPassword} = formInfo
 
+    const {setCurrentUser} = useContext(UserContext)
+
     const resetFormFields = () => {
-        setFormInfo(formDefault);
+        setFormInfo(formDefault)
     };
 
     const handleSubmit = async (event) => {
-        event.preventDefault();
+        event.preventDefault()
 
         if (password !== confirmPassword) {
-            alert('passwords do not match');
-            return;
+            alert('passwords do not match')
+            return
         }
 
         try {
@@ -38,14 +41,16 @@ const SignUp = () => {
                 password
             )
 
-            await createUserDocumentFromAuth(user, {displayName, password});
+            await createUserDocumentFromAuth(user, {displayName, password})
             await UpdateProfile(displayName)
-            resetFormFields();
+            setCurrentUser(user)
+
+            resetFormFields()
         } catch (error) {
             if (error.code === 'auth/email-already-in-use') {
-                alert('Cannot create user, email already in use');
+                alert('Cannot create user, email already in use')
             } else {
-                console.log('user creation encountered an error', error);
+                console.log('user creation encountered an error', error)
             }
         }
     };
@@ -60,13 +65,16 @@ const SignUp = () => {
             <h2>Don't have an account?</h2>
             <span>Signup with your email and password</span>
             <form onSubmit={handleSubmit}>
-                <FormInput label="Display Name" type="text" name="displayName" value={displayName} onChange={handleChange} required />
+                <FormInput label="Display Name" type="text" name="displayName" value={displayName}
+                           onChange={handleChange} required/>
 
-                <FormInput label="Email" type="email" name="email" value={email} onChange={handleChange} required />
+                <FormInput label="Email" type="email" name="email" value={email} onChange={handleChange} required/>
 
-                <FormInput label="Password" type="password" name="password" value={password} onChange={handleChange} required />
+                <FormInput label="Password" type="password" name="password" value={password} onChange={handleChange}
+                           required/>
 
-                <FormInput label="Confirm Password" type="password" name="confirmPassword" value={confirmPassword} onChange={handleChange} required />
+                <FormInput label="Confirm Password" type="password" name="confirmPassword" value={confirmPassword}
+                           onChange={handleChange} required/>
 
                 <Button type="submit">Sign Up</Button>
             </form>

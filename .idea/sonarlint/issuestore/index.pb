@@ -25,5 +25,15 @@ W
 :
 
 src/App.js,1\e\1e43fa63aecd2127be034b3fb9d4caa172275714
-T
-$src/routes/navigation/navigation.jsx,4\7\47b8ce46d2ba5deb34a867304aa7d200941e0c7d
+P
+ src/components/button/button.jsx,d\f\df3d4f73a82c230172822bb0725988a39274984d
+]
+-src/routes/authentication/authentication.scss,d\a\da98be73425ab7bed00847b60aeaf3f6227684f8
+S
+#src/components/sign-in/sign-in.scss,5\6\5661965b16666abf7e9bd56a6ecccc31928a25cf
+X
+(src/components/form-input/form-input.jsx,3\9\3999636fa3a2c0e6cd34e1e810e90e4ec3330de9
+\
+,src/routes/authentication/authentication.jsx,3\a\3a0df44e60369838a0e2d6bc73f1d306b9a7baff
+>
+src/index.scss,5\b\5bfd084cc3a318b78f32da1cd49fc9f987fb897f
