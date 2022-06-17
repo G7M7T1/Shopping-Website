@@ -1,11 +1,11 @@
-import {useState} from 'react';
-import FormInput from '../form-input/form-input';
-import Button from '../button/button';
+import {useState} from 'react'
+import FormInput from '../form-input/form-input'
+import Button from '../button/button'
 import {
     signInWithGooglePopup,
     signInAuthUserWithEmailAndPassword,
-} from '../../utils/firebase/firebase';
-import './sign-in.scss';
+} from '../../utils/firebase/firebase'
+import './sign-in.scss'
 
 const defaultFormFields = {
     email: '',
@@ -13,11 +13,11 @@ const defaultFormFields = {
 };
 
 const SignIn = () => {
-    const [formFields, setFormFields] = useState(defaultFormFields);
-    const {email, password} = formFields;
+    const [formFields, setFormFields] = useState(defaultFormFields)
+    const {email, password} = formFields
 
     const resetFormFields = () => {
-        setFormFields(defaultFormFields);
+        setFormFields(defaultFormFields)
     };
 
     const signInWithGoogle = async () => {
@@ -25,33 +25,30 @@ const SignIn = () => {
     };
 
     const handleSubmit = async (event) => {
-        event.preventDefault();
+        event.preventDefault()
 
         try {
-            const {user} = await signInAuthUserWithEmailAndPassword(
-                email,
-                password
-            );
+            await signInAuthUserWithEmailAndPassword(email, password)
 
-            resetFormFields();
+            resetFormFields()
         } catch (error) {
             switch (error.code) {
                 case 'auth/wrong-password':
-                    alert('incorrect password for email');
-                    break;
+                    alert('incorrect password for email')
+                    break
                 case 'auth/user-not-found':
-                    alert('no user associated with this email');
-                    break;
+                    alert('no user associated with this email')
+                    break
                 default:
-                    console.log(error);
+                    console.log(error)
             }
         }
     };
 
     const handleChange = (event) => {
-        const {name, value} = event.target;
+        const {name, value} = event.target
 
-        setFormFields({...formFields, [name]: value});
+        setFormFields({...formFields, [name]: value})
     };
 
     return (

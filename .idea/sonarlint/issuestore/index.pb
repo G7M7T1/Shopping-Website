@@ -22,9 +22,6 @@ S
 #src/components/sign-up/sign-up.scss,f\f\fffb3da123b28671b426956410f7bc50d5b776de
 W
 'src/components/directory/directory.scss,d\7\d7f897c150cd09538148fee8f1fcf381dc990153
-:
-
-src/App.js,1\e\1e43fa63aecd2127be034b3fb9d4caa172275714
 P
  src/components/button/button.jsx,d\f\df3d4f73a82c230172822bb0725988a39274984d
 ]
