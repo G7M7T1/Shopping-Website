@@ -18,7 +18,7 @@ const SignIn = () => {
 
     const resetFormFields = () => {
         setFormFields(defaultFormFields)
-    };
+    }
 
     const signInWithGoogle = async () => {
         await signInWithGooglePopup()

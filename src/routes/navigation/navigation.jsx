@@ -3,6 +3,7 @@ import {Fragment, useContext} from 'react';
 import "./navigation.scss"
 import {UserContext} from "../../context/user.context";
 import {signOutUser} from "../../utils/firebase/firebase";
+import CartIcon from "../../components/cart-icon/cart-icon";
 
 const Navigation = () => {
     const {currentUser} = useContext(UserContext)
@@ -27,6 +28,8 @@ const Navigation = () => {
                             SIGN IN
                         </Link>)
                     }
+
+                    <CartIcon />
                 </div>
             </div>
             <Outlet/>
