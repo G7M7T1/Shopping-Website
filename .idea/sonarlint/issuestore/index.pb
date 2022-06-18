@@ -14,8 +14,6 @@ H
 src/routes/home/home.jsx,0\3\032c6e092fc639e3aeac2220d34ba272a5595b07
 ^
 .src/components/category-item/category-item.jsx,b\c\bc8ca67ecb81639cbfbf2bb7ee914b4a198834c0
-<
-package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
 S
 #src/components/sign-up/sign-up.scss,f\f\fffb3da123b28671b426956410f7bc50d5b776de
 P
@@ -35,8 +33,6 @@ _
 :
 
 src/App.js,1\e\1e43fa63aecd2127be034b3fb9d4caa172275714
-<
-src/index.js,f\9\f900edc44cb929c2267a16100a32851f6d5b477d
 B
 src/shop-data.json,1\9\19d4f5f6ef0a3dcf9f8944af88741fa0d02ac8b8
 U
