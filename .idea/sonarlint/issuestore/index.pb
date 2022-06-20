@@ -6,8 +6,6 @@ V
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 =
 .env.template,c\b\cba580618a52ae1531e8a3a2da7595593afd602d
-4
-.env,3\c\3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
 A
 public/index.html,f\4\f43ecdf8d666ee908aacce037b4cd72159e4741b
 H
@@ -30,9 +28,6 @@ Q
 !src/components/button/button.scss,e\4\e4b7ebbca5f2b49bf2bb8a298655204f68d6a71d
 _
 /src/components/category-item/category-item.scss,e\3\e3015195a3583af3d3f7950cc8365bdd4278b2fb
-:
-
-src/App.js,1\e\1e43fa63aecd2127be034b3fb9d4caa172275714
 B
 src/shop-data.json,1\9\19d4f5f6ef0a3dcf9f8944af88741fa0d02ac8b8
 U
@@ -43,3 +38,30 @@ W
 'src/components/directory/directory.scss,d\7\d7f897c150cd09538148fee8f1fcf381dc990153
 ]
 -src/components/product-card/product-card.scss,4\5\458a7d06d79fba58e2a8dc6eb8dc206f53ca26fc
+R
+"src/components/sign-up/sign-up.jsx,3\c\3c19e1d2251b44fa2cd34eecb9bf5a461c905d7a
+\
+,src/components/product-card/product-card.jsx,c\d\cd0017833b57b7738f5b9db1963f0a6ffa14e310
+H
+src/routes/shop/shop.jsx,4\1\413c2589e383c31791596d44600d99ac50ad1cba
+R
+"src/components/sign-in/sign-in.jsx,1\0\1026f60a8d2facc1d6da96fe51488587c54247cc
+P
+ src/context/products.context.jsx,0\7\07c2ec75788d4e2822282f9e18f349d7a9b0e438
+W
+'src/components/cart-icon/cart-icon.scss,1\2\126810ca9cd43c5b8c0b8098c2b54adf2ed01ef2
+L
+src/context/user.context.jsx,e\1\e13f64b17f8f8aa234592910af07946a1f8d8df3
+4
+.env,3\c\3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
+_
+/src/components/cart-dropdown/cart-dropdown.scss,1\5\153dba9e60fa837558058feaf863b9ab7780e246
+<
+package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
+:
+
+src/App.js,1\e\1e43fa63aecd2127be034b3fb9d4caa172275714
+>
+src/index.scss,5\b\5bfd084cc3a318b78f32da1cd49fc9f987fb897f
+<
+src/index.js,f\9\f900edc44cb929c2267a16100a32851f6d5b477d

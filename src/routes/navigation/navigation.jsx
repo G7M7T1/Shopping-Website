@@ -11,6 +11,13 @@ const Navigation = () => {
     const {currentUser} = useContext(UserContext)
     const {isCartOpen} = useContext(CartContext)
 
+    const user = currentUser
+
+    let displayName = null
+    if (user !== null) {
+        displayName = user.displayName
+    }
+
     return (
         <Fragment>
             <div className='navigation'>
@@ -18,6 +25,12 @@ const Navigation = () => {
                     <p>Logo</p>
                 </Link>
                 <div className='nav-links-container'>
+                    {displayName ?
+                        (<span>Hi, {displayName}</span>)
+                        :
+                        (<span>Hello There</span>)
+                    }
+
                     <Link className='nav-link' to='/shop'>
                         SHOP
                     </Link>
@@ -31,7 +44,7 @@ const Navigation = () => {
                             SIGN IN
                         </Link>)
                     }
-                    <CartIcon />
+                    <CartIcon/>
                 </div>
                 {isCartOpen && <CartDropdown/>}
             </div>
