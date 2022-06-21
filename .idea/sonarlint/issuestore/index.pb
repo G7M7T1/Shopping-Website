@@ -40,8 +40,6 @@ W
 -src/components/product-card/product-card.scss,4\5\458a7d06d79fba58e2a8dc6eb8dc206f53ca26fc
 R
 "src/components/sign-up/sign-up.jsx,3\c\3c19e1d2251b44fa2cd34eecb9bf5a461c905d7a
-\
-,src/components/product-card/product-card.jsx,c\d\cd0017833b57b7738f5b9db1963f0a6ffa14e310
 H
 src/routes/shop/shop.jsx,4\1\413c2589e383c31791596d44600d99ac50ad1cba
 R
