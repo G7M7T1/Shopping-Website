@@ -28,10 +28,6 @@ Q
 !src/components/button/button.scss,e\4\e4b7ebbca5f2b49bf2bb8a298655204f68d6a71d
 _
 /src/components/category-item/category-item.scss,e\3\e3015195a3583af3d3f7950cc8365bdd4278b2fb
-B
-src/shop-data.json,1\9\19d4f5f6ef0a3dcf9f8944af88741fa0d02ac8b8
-U
-%src/routes/navigation/navigation.scss,b\6\b6532b47db109bfd3a11ce5d55ba67975f770624
 Y
 )src/components/form-input/form-input.scss,9\d\9da9cf3b5627e51545efab0d00056d2da457e54a
 W
@@ -44,8 +40,6 @@ H
 src/routes/shop/shop.jsx,4\1\413c2589e383c31791596d44600d99ac50ad1cba
 R
 "src/components/sign-in/sign-in.jsx,1\0\1026f60a8d2facc1d6da96fe51488587c54247cc
-P
- src/context/products.context.jsx,0\7\07c2ec75788d4e2822282f9e18f349d7a9b0e438
 W
 'src/components/cart-icon/cart-icon.scss,1\2\126810ca9cd43c5b8c0b8098c2b54adf2ed01ef2
 L
@@ -56,10 +50,42 @@ _
 /src/components/cart-dropdown/cart-dropdown.scss,1\5\153dba9e60fa837558058feaf863b9ab7780e246
 <
 package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
+>
+src/index.scss,5\b\5bfd084cc3a318b78f32da1cd49fc9f987fb897f
+Q
+!src/routes/checkout/checkout.scss,7\7\77a8a37eb63fdbb7c8fb3fd0cad1111a4a829ed0
+<
+src/index.js,f\9\f900edc44cb929c2267a16100a32851f6d5b477d
 :
 
 src/App.js,1\e\1e43fa63aecd2127be034b3fb9d4caa172275714
->
-src/index.scss,5\b\5bfd084cc3a318b78f32da1cd49fc9f987fb897f
-<
-src/index.js,f\9\f900edc44cb929c2267a16100a32851f6d5b477d
+^
+.src/components/cart-dropdown/cart-dropdown.jsx,8\7\877cf1bb2bd2e737558797588b3ef1a67add1d2a
+\
+,src/components/product-card/product-card.jsx,c\d\cd0017833b57b7738f5b9db1963f0a6ffa14e310
+V
+&src/components/cart-item/cart-item.jsx,d\d\dd557cadbcecfdb9a88fe7fed31e2f2e9c394cd6
+I
+src/routes/shop/shop.scss,e\f\ef0c44fa43bb24bd462f9162cc5e07462bb1d8ca
+V
+&src/components/cart-icon/cart-icon.jsx,c\1\c141c3896451b44a7992ce0e206e3f3418b40d4d
+_
+/src/components/checkout-item/checkout-item.scss,1\8\1833e7bf5bf4344ee33083b1f1df2b2e6d45b05f
+^
+.src/components/checkout-item/checkout-item.jsx,e\f\efa683a99dbbad371d4178f7b3cb10201a1bf8ac
+P
+ src/routes/checkout/checkout.jsx,8\6\8625305d5aac71adff02381aa006bcd805c99846
+W
+'src/components/cart-item/cart-item.scss,d\e\debbf25c43eadac99cf477cd3d0b5fbb6a466627
+U
+%src/routes/navigation/navigation.scss,b\6\b6532b47db109bfd3a11ce5d55ba67975f770624
+T
+$src/routes/navigation/navigation.jsx,4\7\47b8ce46d2ba5deb34a867304aa7d200941e0c7d
+N
+src/utils/firebase/firebase.js,2\a\2afefd397bbfd799ec1bc24703bd8d57b423ce50
+P
+ src/context/products.context.jsx,0\7\07c2ec75788d4e2822282f9e18f349d7a9b0e438
+L
+src/context/cart.context.jsx,3\4\34ced394556b8c647c6840c638e349f730ffbe03
+@
+src/shop-data.js,e\d\edcf0375f56127cdf65037606dc73d7b385b2c39

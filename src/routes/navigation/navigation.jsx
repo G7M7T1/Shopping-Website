@@ -28,7 +28,7 @@ const Navigation = () => {
                     {displayName ?
                         (<span>Hi, {displayName}</span>)
                         :
-                        (<span>Hello There</span>)
+                        (<span>Hello <span className="green-color">New User</span></span>)
                     }
 
                     <Link className='nav-link' to='/shop'>
