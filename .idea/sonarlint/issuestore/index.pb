@@ -6,8 +6,6 @@ V
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 =
 .env.template,c\b\cba580618a52ae1531e8a3a2da7595593afd602d
-A
-public/index.html,f\4\f43ecdf8d666ee908aacce037b4cd72159e4741b
 H
 src/routes/home/home.jsx,0\3\032c6e092fc639e3aeac2220d34ba272a5595b07
 ^
@@ -42,8 +40,6 @@ R
 "src/components/sign-in/sign-in.jsx,1\0\1026f60a8d2facc1d6da96fe51488587c54247cc
 W
 'src/components/cart-icon/cart-icon.scss,1\2\126810ca9cd43c5b8c0b8098c2b54adf2ed01ef2
-L
-src/context/user.context.jsx,e\1\e13f64b17f8f8aa234592910af07946a1f8d8df3
 4
 .env,3\c\3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
 _
@@ -75,17 +71,21 @@ P
  src/routes/checkout/checkout.jsx,8\6\8625305d5aac71adff02381aa006bcd805c99846
 T
 $src/routes/navigation/navigation.jsx,4\7\47b8ce46d2ba5deb34a867304aa7d200941e0c7d
+L
+src/context/cart.context.jsx,3\4\34ced394556b8c647c6840c638e349f730ffbe03
+L
+src/context/user.context.jsx,e\1\e13f64b17f8f8aa234592910af07946a1f8d8df3
 P
  src/context/products.context.jsx,0\7\07c2ec75788d4e2822282f9e18f349d7a9b0e438
 N
 src/utils/firebase/firebase.js,2\a\2afefd397bbfd799ec1bc24703bd8d57b423ce50
+A
+public/index.html,f\4\f43ecdf8d666ee908aacce037b4cd72159e4741b
 I
 src/routes/shop/shop.scss,e\f\ef0c44fa43bb24bd462f9162cc5e07462bb1d8ca
 W
 'src/components/cart-item/cart-item.scss,d\e\debbf25c43eadac99cf477cd3d0b5fbb6a466627
-@
-src/shop-data.js,e\d\edcf0375f56127cdf65037606dc73d7b385b2c39
 U
 %src/routes/navigation/navigation.scss,b\6\b6532b47db109bfd3a11ce5d55ba67975f770624
-L
-src/context/cart.context.jsx,3\4\34ced394556b8c647c6840c638e349f730ffbe03
+@
+src/shop-data.js,e\d\edcf0375f56127cdf65037606dc73d7b385b2c39

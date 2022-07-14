@@ -1,6 +1,12 @@
-import { initializeApp } from 'firebase/app';
-import {onAuthStateChanged, signOut, getAuth, updateProfile, signInWithPopup, GoogleAuthProvider, createUserWithEmailAndPassword, signInWithEmailAndPassword} from 'firebase/auth';
-import { getFirestore, doc, getDoc, setDoc, getDocs, collection, writeBatch, query } from 'firebase/firestore';
+import { initializeApp } from 'firebase/app'
+
+import {onAuthStateChanged, signOut, getAuth,
+    updateProfile, signInWithPopup,
+    GoogleAuthProvider, createUserWithEmailAndPassword,
+    signInWithEmailAndPassword} from 'firebase/auth'
+
+import { getFirestore, doc, getDoc, setDoc,
+    getDocs, collection, writeBatch, query } from 'firebase/firestore';
 
 const firebaseConfig = {
     apiKey: process.env.REACT_APP_APIKEY,
@@ -10,7 +16,7 @@ const firebaseConfig = {
     messagingSenderId: process.env.REACT_APP_MESSAGINGSENDERID,
     appId: process.env.REACT_APP_APPID,
     measurementId: process.env.REACT_APP_MEASUREMENTID
-};
+}
 
 initializeApp(firebaseConfig)
 
@@ -40,14 +46,14 @@ export const addCollectionAndDocuments = async (collectionKey, objectsToAdd) => 
 
 export const getCategoriesAndDocuments = async () => {
     const collectionRef = collection(db, 'categories');
-    const q = query(collectionRef);
+    const q = query(collectionRef)
 
-    const querySnapshot = await getDocs(q);
+    const querySnapshot = await getDocs(q)
     const categoryMap = querySnapshot.docs.reduce((acc, docSnapshot) => {
         const { title, items } = docSnapshot.data();
         acc[title.toLowerCase()] = items;
         return acc;
-    }, {});
+    }, {})
 
     return categoryMap;
 };
